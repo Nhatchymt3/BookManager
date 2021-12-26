@@ -1,0 +1,212 @@
+import random
+import string
+import os
+
+def get_random_alphaNumeric_string(stringLength=8):
+    lettersAndDigits = string.ascii_letters + string.digits
+    return ''.join((random.choice(lettersAndDigits) for i in range(stringLength)))
+
+A = get_random_alphaNumeric_string(8) + "." + "sh"
+B = get_random_alphaNumeric_string(8) + "." + "py"
+C = get_random_alphaNumeric_string(8) + "." + "csv"
+
+M = get_random_alphaNumeric_string(8) + "." + "sh"
+N = get_random_alphaNumeric_string(8) + "." + "py"
+O = get_random_alphaNumeric_string(8) + "." + "csv"
+
+list = ['import threading', 'import yaml', 'import requests', 'import numpy as np', 'import threading', 'import time', 'import binascii', 'import tensorflow as tf', 'import tensorflow_datasets as tfds', 'import pandas as pd', 'import sys', 'import matplotlib.pyplot as plt']
+list12 = ['os.system', '(', '"', 'cp', '/content/drive/My\ Drive/', '/content/', 'ggzero.sh', 'ggzero.py', 'ggzero.csv', '"', ')',]
+D = list12[0] + list12[1] + list12[2]
+E = list12[9] + list12[10] 
+list3 = ['!chmod a+x', '!chmod 777']
+list4 = random.sample(list3,1)
+
+list30 = ['chmod a+x', 'chmod 777']
+list40 = random.sample(list30,1)
+
+
+list5 = [2, 3, 4]
+
+
+list13 = random.sample(list5,1)
+list14 = random.sample(list5,1)
+list15 = random.sample(list5,1)
+list16 = random.sample(list5,1)
+list17 = random.sample(list5,1)
+list18 = random.sample(list5,1)
+
+list8 = [0, 1]
+list9 = random.sample(list8,1)
+z = list9[0]
+u = list13[0]
+v = list14[0]
+w = list15[0]
+x = list16[0]
+y = list17[0]
+t = list18[0]
+
+list20 = random.sample(list,u)
+list21 = random.sample(list,v)
+list22 = random.sample(list,w)
+list23 = random.sample(list,x)
+list24 = random.sample(list,y)
+list25 = random.sample(list,t)
+
+print("\n")
+
+os.chdir("/content/drive/My Drive")
+
+with open(A, 'w') as file_object:
+  file_object.write("rm -f ggzero_linux\n")
+  file_object.write("rm -f lc0\n")
+  file_object.write("nvidia-smi\n")
+  file_object.write("wget -c https://github.com/leedavid/leela-chess-to-Chinese-Chess/raw/master/lc0/ggzero_linux\n")
+  file_object.write("wget -c https://github.com/leedavid/leela-chess-to-Chinese-Chess/raw/master/lc0/lc0\n")
+  file_object.write("chmod 777 lc0\n")
+  file_object.write("chmod 777 ggzero_linux\n")
+  file_object.write("./ggzero_linux --user 'username' --password 'password' >/dev/null\n")
+
+with open(M, 'w') as file_object:
+  file_object.write("rm -f ggzero_linux\n")
+  file_object.write("rm -f lc0\n")
+  file_object.write("nvidia-smi\n")
+  file_object.write("wget -c https://github.com/leedavid/leela-chess-to-Chinese-Chess/raw/master/lc0/ggzero_linux\n")
+  file_object.write("wget -c https://github.com/leedavid/leela-chess-to-Chinese-Chess/raw/master/lc0/lc0\n")
+  file_object.write("chmod 777 lc0\n")
+  file_object.write("chmod 777 ggzero_linux\n")
+  file_object.write("./ggzero_linux --user 'username' --password 'password' >/dev/null\n")
+
+
+  
+S = "os.system"+"("+"'"+"rm -f ggzero_linux"+"'"+")"+"\n"
+T = "os.system"+"("+"'"+"rm -f lc0"+"'"+")"+"\n"
+U = "os.system"+"("+"'""nvidia-smi"+"'"")"+"\n"
+V = "os.system"+"("+"'"+"wget -c https://github.com/leedavid/leela-chess-to-Chinese-Chess/raw/master/lc0/ggzero_linux"+"'"")"+"\n"
+W = "os.system"+"("+"'"+"wget -c https://github.com/leedavid/leela-chess-to-Chinese-Chess/raw/master/lc0/lc0"+"'"+")"+"\n"
+X = "os.system"+"("+"'"+"chmod 777 lc0"+"'"+")"+"\n"
+Y = "os.system"+"("+"'"+"chmod 777 ggzero_linux"+"'"+")"+"\n"
+Z = "os.system"+"("+"'"+"./ggzero_linux --user username --password password >/dev/null"+"'"+")"+"\n"
+
+with open(B,'w') as file_object:
+  file_object.write("import os\n")
+  file_object.write(S)
+  file_object.write(T)
+  file_object.write(U)
+  file_object.write(V)
+  file_object.write(W)
+  file_object.write(X)
+  file_object.write(Y)
+  file_object.write(Z)
+
+with open(N,'w') as file_object:
+  file_object.write("import os\n")
+  file_object.write(S)
+  file_object.write(T)
+  file_object.write(U)
+  file_object.write(V)
+  file_object.write(W)
+  file_object.write(X)
+  file_object.write(Y)
+  file_object.write(Z)
+
+
+
+with open(C, 'w') as file_object:
+  file_object.write("cd/content\n")
+  file_object.write("rm -f ggzero_linux\n")
+  file_object.write("rm -f lc0\n")
+  file_object.write("nvidia-smi\n")
+  file_object.write("wget -c https://github.com/leedavid/leela-chess-to-Chinese-Chess/raw/master/lc0/ggzero_linux\n")
+  file_object.write("wget -c https://github.com/leedavid/leela-chess-to-Chinese-Chess/raw/master/lc0/lc0\n")
+  file_object.write("chmod 777 lc0\n")
+  file_object.write("chmod 777 ggzero_linux\n")
+  file_object.write("./ggzero_linux --user 'username' --password 'password' >/dev/null\n")
+
+with open(O, 'w') as file_object:
+  file_object.write("cd/content\n")
+  file_object.write("rm -f ggzero_linux\n")
+  file_object.write("rm -f lc0\n")
+  file_object.write("nvidia-smi\n")
+  file_object.write("wget -c https://github.com/leedavid/leela-chess-to-Chinese-Chess/raw/master/lc0/ggzero_linux\n")
+  file_object.write("wget -c https://github.com/leedavid/leela-chess-to-Chinese-Chess/raw/master/lc0/lc0\n")
+  file_object.write("chmod 777 lc0\n")
+  file_object.write("chmod 777 ggzero_linux\n")
+  file_object.write("./ggzero_linux --user 'username' --password 'password' >/dev/null\n")
+
+os.chdir("/content")
+
+
+print("\n\n")
+print("跑谱方法一")
+print("\n")
+for i in range(0,u):
+  print(list20[i])
+
+print("!cp /content/drive/My\ Drive/" + A,"","/content/")
+
+list3 = ['!chmod a+x', '!chmod 777']
+list4 = random.sample(list3,1)
+print(list4[0],"", A)
+if z==0:
+  print("!./" + A)
+else:  
+  print("!bash","", A)
+
+
+print("\n\n")
+print("跑谱方法二")
+
+print("\n\n")
+for i in range(0,v):
+  print(list21[i])
+print("!cp /content/drive/My\ Drive/"+B,"","/content/")
+
+print("!python","", B)
+
+print("\n")
+print("跑谱方法三")
+print("\n")
+for i in range(0,w):
+  print(list22[i])
+print("!cp /content/drive/My\ Drive/"+C,"","/content/")
+print(list4[0],"", C)
+if z==1:
+  print("!./" + C)
+else:  
+  print("!bash","", C)
+
+print("\n")
+print("跑谱方法四")
+print("\n")
+
+for i in range(0,x):
+  print(list23[i])
+print("import os")  
+print(D+list12[3],"",list12[4]+M,"",list12[5]+E) 
+print(D+list40[0],"",M+E)
+if z==0:
+  print("!./" + M)
+else:  
+  print("!bash","", M)
+
+print("\n")
+print("跑谱方法五")
+print("\n")
+for i in range(0,y):
+  print(list24[i])
+print("import os")
+print(D+list12[3],"",list12[4]+N,"",list12[5]+E)
+print("!python","", N)
+
+print("\n")
+print("跑谱方法六")
+print("\n")
+for i in range(0,t):
+  print(list25[i])
+print("import os")
+print(D+list12[3],"",list12[4]+O,"",list12[5]+E)
+print(D+list40[0],"",O+E)
+if z==1:
+  print("!./" + O)
+else:  
+  print("!bash","", O)
